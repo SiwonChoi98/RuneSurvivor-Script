@@ -16,6 +16,8 @@ public class Exp : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody>();
         player = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>(); //자석관련
+
+
     }
     void Update()
     {   //자석관련
